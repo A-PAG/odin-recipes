@@ -1,6 +1,38 @@
-* {
+html {
   font-family: Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+body {
   margin: 0;
   padding: 0;
-  font-size: 20px;
+  box-sizing: content-box;
+}
+
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0e5aff;
+  color: #82ddeb;
+}
+
+h1 {
+  font-size: 1rem;
+  font-family: "Jersey 25", sans-serif;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-size: 0.8rem;
+}
+
+.nav-list a {
+  color: #82ddeb;
+  text-decoration: none;
 }
