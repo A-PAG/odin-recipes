@@ -1,38 +1,57 @@
 html {
-  font-family: Helvetica, sans-serif;
+  font-family: "Archivo", Helvetica, sans-serif;
   font-size: 24px;
 }
 
 body {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
+}
+
+#logo {
+  font-size: 1rem;
+  font-family: "Jersey 25", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #82ddeb;
 }
 
 #navigation {
+  background-color: #0e5aff;
   display: flex;
+  width: 100%;
+  height: 64px;
+  box-sizing: border-box;
+
   justify-content: space-between;
   align-items: center;
+  align-content: center;
   padding: 20px;
-  background-color: #0e5aff;
-  color: #82ddeb;
 }
 
-h1 {
-  font-size: 1rem;
-  font-family: "Jersey 25", sans-serif;
+#nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+  font-size: 0.7rem;
 }
 
-.nav-list {
+#search-bar{
+  width: 15%;
+}
+
+#search{
   margin: 0;
   padding: 0;
-  display: flex;
-  gap: 30px;
-  list-style: none;
-  font-size: 0.8rem;
-}
-
-.nav-list a {
-  color: #82ddeb;
-  text-decoration: none;
+  width: 100%;
+  background-color: #82ddeb;
+  height: 20px;
+  border: none;
+  color: #0e5aff;
+  border-radius: 1rem;
 }
